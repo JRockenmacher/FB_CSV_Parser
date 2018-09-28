@@ -143,10 +143,10 @@ app.get("/buildit", (request, response) => {
         let g = 0
         console.log(g++)
         return {
+            bizName: obj.place,
             bizType: getCategory(obj.place),
             lat: Number(splitCoords(obj)[0]),
             long: Number(splitCoords(obj)[1]),
-            bizName: obj.place
         }
     }
 
