@@ -1,1 +1,1 @@
-# FB_CSV_Parser
+Welcome to the FB Data parser. In this an express server is used with 2 different routes to first transform the csv to a mega object ("/getit") that can be then digested and converted by the other route ("buildit") to a JSON object to be used in an api call. To use run `npm install` in the commmand line, then `node index.js` to start the server. Ping the route you want and watch the data transform. This is an extremely large dataset so give a few minutes for it to populate. 
